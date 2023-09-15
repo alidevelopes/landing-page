@@ -10,12 +10,27 @@ body {
     background-color: #1F2937;
     padding: 1em 8em 5em;
 }
-
 .header {
     display: flex;
     justify-content: space-between;
     padding-bottom: 4em;
 }
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.links a, .header-paragraph {
+    font-size: 1.1rem;
+    color: #E5E7EB;
+}
+.logo {
+    font-size: 1.5rem;
+    color: white;
+}
+
 
 .header-img {
     text-align: center;
@@ -36,7 +51,7 @@ h1 {
 }
 .sign-up-btn {
     color: white;
-    background-color: blue;
+    background-color: #3882F6;
     border-radius: 6px;
     padding: .3em 1.3em;
     border: none;
@@ -47,15 +62,9 @@ h1 {
 }
 
 .header-txt-img-container {
-    background-color: yellow;
     display: flex;
     justify-content: space-between;
 }
-
-/* .header-text-img, .header-img {
-    flex: none;
-} */
-
 
 
 /* ---- Header part ends here */
@@ -68,7 +77,12 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: ;
+}
+
+h2 {
+    font-size: 2.25rem;
+    font-weight: bold;
+    color: #1F2937;
 }
 
 .div-img, .div-img {
@@ -92,7 +106,8 @@ h1 {
 
 .quote-container {
     padding: 4em 10em;
-    background-color: lightblue;
+    background-color: #E5E7EB;
+    font-size: 2.3rem;
     display: flex;
     flex-direction: column;
     /* flex-wrap: wrap; */
@@ -101,13 +116,11 @@ h1 {
 }
 
 .quote {
-    /* background-color: lightcoral; */
     margin: 0;
     max-width: 60ch;
 }
 
 .author-name {
-    /* background-color: yellow; */
     align-self: center;
     margin: 0;
 }
@@ -126,7 +139,7 @@ h1 {
     display: flex;
     align-items: center;
     gap: 1em;
-    background-color: red;
+    background-color: #3882F6;
     padding: 1em 2em;
 
 }
@@ -137,11 +150,13 @@ h3, .call-to-action p {
 }
 .call-to-action {
     color: white;
-    /* background-color: blue; */
 }
 
 .c-a-t-btn {
-    background-color: none;
+    color: white;
+    background-color: #3882F6;
+    border-color: white;
+    border-radius: 6px;
 }
 
 
@@ -150,6 +165,8 @@ h3, .call-to-action p {
 
 /* ---------footer starts here */
 .footer {
-    background-color: lightslategray;
+    color: #E5E7EB;
+    background-color:#1F2937;
     text-align: center;
+    
 }
