@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ----- Header part ----- */
+.header-container {
+    background-color: #1F2937;
+    padding: 1em 8em 5em;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 4em;
+}
+
+.header-img {
+    text-align: center;
+    outline: solid;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 1em;
+}
+a {
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+.sign-up-btn {
+    color: white;
+    background-color: blue;
+    border-radius: 6px;
+    padding: .3em 1.3em;
+    border: none;
+}
+
+.header-paragraph {
+    max-width: 45ch;
+}
+
+.header-txt-img-container {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* .header-text-img, .header-img {
+    flex: none;
+} */
+
+
+
+/* ---- Header part ends here */
+
+/* ----- content1 part starts here */
+
+.content-one {
+    padding: 1em 5em 4em;
+    /* background-color: lightseagreen; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: ;
+}
+
+.div-img, .div-img {
+    margin: 0;
+    width: 200px;
+    height: 200px;
+    outline: solid;
+}
+
+.content-text-img {
+    display: flex;
+    gap: 1em;
+}
+
+
+
+/* ---- content1 ends here */
+
+
+/* ---- quotation parts begin here */
+
+.quote-container {
+    padding: 4em 10em;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    align-items: center;
+    gap: 0;
+}
+
+.quote {
+    /* background-color: lightcoral; */
+    margin: 0;
+    max-width: 60ch;
+}
+
+.author-name {
+    /* background-color: yellow; */
+    align-self: center;
+    margin: 0;
+}
+
+/* ---------- call to action part begins here */
+.c-t-a-parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6em 10em;
+    height: 5px;
+
+}
+.c-t-a-container {
+    flex: none;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    background-color: red;
+    padding: 1em 2em;
+
+}
+
+h3, .call-to-action p {
+    padding: 0;
+    margin: 0;
+}
+.call-to-action {
+    color: white;
+    /* background-color: blue; */
+}
+
+.c-a-t-btn {
+    background-color: none;
+}
+
+
+
+
+
+/* ---------footer starts here */
+.footer {
+    background-color: lightslategray;
+    text-align: center;
+}
