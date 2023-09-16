@@ -3,12 +3,13 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* ----- Header part ----- */
 .header-container {
     background-color: #1F2937;
-    padding: 1em 8em 5em;
+    padding: 1em 8rem 5em;
 }
 .header {
     display: flex;
@@ -22,19 +23,19 @@ h1 {
     color: #F9FAF8;
 }
 
-.links a, .header-paragraph {
+.links a, .header-paragraph, .logo {
     font-size: 1.1rem;
     color: #E5E7EB;
 }
-.logo {
-    font-size: 1.5rem;
-    color: white;
-}
 
+.logo {
+    font-weight: 700;
+}
 
 .header-img {
     text-align: center;
-    outline: solid;
+    outline: dotted lightgray;
+    width: 350px;
 }
 
 ul {
@@ -53,7 +54,7 @@ h1 {
     color: white;
     background-color: #3882F6;
     border-radius: 6px;
-    padding: .3em 1.3em;
+    padding: .5em 1.5em;
     border: none;
 }
 
@@ -69,98 +70,116 @@ h1 {
 
 /* ---- Header part ends here */
 
-/* ----- content1 part starts here */
+/* ----- info part starts here */
 
-.content-one {
-    padding: 1em 5em 4em;
-    /* background-color: lightseagreen; */
+.info-parent {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1rem 6rem 4rem;
 }
 
 h2 {
     font-size: 2.25rem;
-    font-weight: bold;
+    margin: 0 0 2em;
     color: #1F2937;
+    font-weight: bold;
+    margin-bottom: 3rem;
 }
 
-.div-img, .div-img {
-    margin: 0;
+.div-img {
+    border-radius: 8px;
+    outline: dotted lightslategray;
     width: 200px;
     height: 200px;
-    outline: solid;
 }
-
-.content-text-img {
+.info-img-container {
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-and-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-and-img p {
+    max-width: 200px;
+    text-align: center;
 }
 
 
-
-/* ---- content1 ends here */
 
 
 /* ---- quotation parts begin here */
 
-.quote-container {
-    padding: 4em 10em;
+.quote-parent {
+    display: flex;
+    justify-content: center;
     background-color: #E5E7EB;
-    font-size: 2.3rem;
+    padding: 6em 4em;
+}
+
+.quote-container {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
-    align-items: center;
-    gap: 0;
+    flex-basis: 65ch;
+    justify-content: center;
+    gap: 1em;
+    flex-wrap: wrap;
 }
 
 .quote {
+    align-self: center;
+    max-width: 45ch;
+    line-height: 2.5rem;
+    flex-grow: 0;
     margin: 0;
-    max-width: 60ch;
+    font-size: 1.5rem;
 }
 
 .author-name {
-    align-self: center;
     margin: 0;
+    font-weight: bold;
+    align-self: center;
+    align-self: flex-end;
 }
+
 
 /* ---------- call to action part begins here */
+
 .c-t-a-parent {
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding: 6em 10em;
-    height: 5px;
-
+    flex-direction: column;
+    padding: 5rem 8rem;
 }
+
 .c-t-a-container {
-    flex: none;
+    background-color: #3882F6;
     display: flex;
     align-items: center;
-    gap: 1em;
-    background-color: #3882F6;
-    padding: 1em 2em;
-
+    justify-content: space-between;
+    padding: 2rem 4rem;
+    border-radius: .5rem;
 }
 
-h3, .call-to-action p {
-    padding: 0;
+
+.call-to-action, h3 {
     margin: 0;
-}
-.call-to-action {
     color: white;
 }
 
 .c-a-t-btn {
     color: white;
     background-color: #3882F6;
-    border-color: white;
+    border-color: #E5E7EB;
     border-radius: 6px;
+    padding: .5em 1.5em;
 }
-
-
-
 
 
 /* ---------footer starts here */
@@ -168,5 +187,6 @@ h3, .call-to-action p {
     color: #E5E7EB;
     background-color:#1F2937;
     text-align: center;
-    
+    padding: .5em 0;
 }
+
